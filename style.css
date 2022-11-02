@@ -32,6 +32,7 @@
 
 body {
   background-color: #816e7f;
+  background-image: url('images/space.jpg');
   color: rgb(191, 185, 178);
   font-family: 'Trispace', sans-serif;
 }
