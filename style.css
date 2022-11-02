@@ -1,5 +1,5 @@
-@media (max-width: 1920px) {
-  /* For a screen < 1920px, this CSS will be read */
+@media (max-width: 8000px) {
+  /* For a screen < 8000px, this CSS will be read */
   .container {
     width: 900px;
     margin: 0 auto;
