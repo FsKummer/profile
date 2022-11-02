@@ -32,9 +32,11 @@
 
 body {
   background-color: #816e7f;
-  background-image: url('images/space.jpg');
+  background-image: url('images/space-background-gif-7.gif');
   color: rgb(191, 185, 178);
   font-family: 'Trispace', sans-serif;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,7 +89,7 @@ button:hover {
 
 .card {
   margin: 15px auto;
-  background-color: #2a213c;
+  background-color: rgba(42, 33, 60, 0.5);
   padding: 10px;
   border-radius: 15px;
   box-shadow: 2px 2px 3px #312f31 ;
