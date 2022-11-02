@@ -1,0 +1,106 @@
+@media (max-width: 1280px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #816e7f;
+  color: rgb(191, 185, 178);
+  font-family: 'Trispace', sans-serif;
+}
+
+h1 {
+  font-family: 'Trispace', sans-serif;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #816e7f;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: #816e7f;
+  font-size: 15px;
+  padding: 10px;
+}
+
+a:hover {
+  color: rgb(114, 110, 104);
+}
+
+button:hover {
+  background-color: rgb(114, 110, 104);
+  cursor: pointer;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  margin: 15px auto;
+  background-color: #2a213c;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #312f31 ;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+i{
+  font-size: 40px;
+}
+
+.list-inline > a > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
